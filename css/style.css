@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ececec;
+}
+
+body h1 {
+  font-size: 3rem;
+}
+
+body #main #headername {
+  text-align: center;
+  padding-top: 2rem;
+  text-shadow: 2px 2px 5px black;
+  color: white;
+}
+
+body #main #headername span {
+  color: red;
+  font-weight: bolder;
+}
+
+body #main form {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+body #main form input {
+  margin: 0rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */

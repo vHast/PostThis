@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #main {
+
+    #headername{
+      text-align: center;
+      padding-top: 2rem;
+      text-shadow: 2px 2px 5px black;
+      color: white;
+  
+      span {
+        color: red;
+        font-weight: bolder;
+      }
+    }
+
+    form {
+      padding-top: 2rem;
+      display: flex;
+      justify-content: center;
+
+      input {
+        margin: 0rem 1rem;
+      }
+    }
+  }
+
+
+}
+
