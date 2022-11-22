@@ -30,13 +30,24 @@ body {
       padding-top: 2rem;
       display: flex;
       justify-content: center;
+      align-items: center;
 
       input {
         margin: 0rem 1rem;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+      }
+
+      #submitbtn {
+        background-color: white;
+        border-radius: 5px;
+        border-color: rgb(255, 82, 82);
+        font-size: 1rem;
+        padding: 0rem 1rem;
+        color: red;
+        font-weight: bolder;
       }
     }
   }
-
-
 }
 

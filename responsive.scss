@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1450px) {
+  body {
+    #main {
+      form {
+        flex-direction: column;
+        align-items: center;
+
+        #submitbtn{
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

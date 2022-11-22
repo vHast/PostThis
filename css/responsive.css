@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1450px) {
+  body #main form {
+    flex-direction: column;
+    align-items: center;
+  }
+  body #main form #submitbtn {
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

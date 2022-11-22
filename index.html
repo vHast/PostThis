@@ -8,14 +8,18 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+
   <section id="main">
+
     <header>
-      <h1 id="headername">Biking <span>Point</span></h1>
+      <h1 id="headername">Biking <span>Point</span></h1> <!-- Header-->
     </header>
-    <form action="#">
+
+    <form action="#"> <!-- This form is going to interact with the API -->
       <label for="fyear">Year: </label>
       <input type="number" min="1980" max="2022"><br><br>
       <label for="fcategory">Category: </label>
@@ -29,8 +33,9 @@
       <input type="number" min="0" max="100"><br><br>
       <label for="finclude">Include: </label>
       <input type="text"><br><br>
-      <input type="submit">
+      <input type="submit" id="submitbtn" value="Select">
     </form>
+
   </section>
 </body>
 </html>

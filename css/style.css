@@ -29,9 +29,22 @@ body #main form {
   padding-top: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 body #main form input {
   margin: 0rem 1rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+body #main form #submitbtn {
+  background-color: white;
+  border-radius: 5px;
+  border-color: #ff5252;
+  font-size: 1rem;
+  padding: 0rem 1rem;
+  color: red;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=style.css.map */
